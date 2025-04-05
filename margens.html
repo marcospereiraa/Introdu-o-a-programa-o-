@@ -10,8 +10,8 @@
     <style>
         .caixa1 {
             background-color: aqua; /* cor clara para visualização */
-            margin: 30px; /* cria espaçamento externo de 20px em todos os lados */
-            padding: 50px;
+            margin: 20%; /* cria espaçamento externo de 20px em todos os lados */
+            padding: 20%;
             border: 30px solid black; /* borda solida de 2px */
             background-color: aquamarine;
             width: 200px;
@@ -114,6 +114,28 @@
         background-color: coral;
         margin-bottom: 20px;
     }
+    
+    body{
+        margin: 0; /* Remove margens padrão para evitar barras de rolagem indesejadas */
+        padding: 0;
+        box-sizing: border-box;
+    }
+.caixa2 {
+    height: 2000px; /* exemplo de conteudo grande para testar rolagem */
+    background-color: azure;
+}
 
+.caixa1 {
+    position: fixed;
+    bottom: 0;   /* fixa na parte de baixo */
+    left: 0; /* inicia no canto esquerdo */
+    width: 100%; /* ocupa toda a largura da tela */
+    background: coral;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    
+
+}
         
 </style>

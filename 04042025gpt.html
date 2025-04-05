@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Redefinição geral do corpo */
+        body {
+            margin: 0; /* Remover margem padrão */
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Container flexível que ocupa toda a altura da tela */
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Garante que o container ocupe pelo menos 100% da altura da tela */
+        }
+
+        /* Área de conteúdo principal */
+        .principal {
+            flex: 1; /* Faz com que a área principal ocupe o espaço restante */
+            background: blue;
+            color: white;
+            padding: 20px;
+        }
+
+        /* Rodapé fixo no final */
+        .rodape {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Área do conteúdo que causa rolagem */
+        .conteudo2 {
+            height: 2000px; /* Exemplo de conteúdo grande para testar rolagem */
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main class="principal">
+            <h1>Doces e delicias</h1>
+            <p> Quem somos?</p>
+        
+            <div class="conteudo2"></div> <!-- Exemplo de conteúdo grande -->
+        </main>
+        <footer class="rodape">
+            Feito em 2025 por mim
+        </footer>
+    </div>
+</body>
+</html>
