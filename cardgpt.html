@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(230, 248, 248);
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            margin: 60px;
+            align-items: center; /* Para centralizar verticalmente */
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .card, .card2, .card3{
+            background-color: blueviolet;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px black;
+            overflow: hidden;
+            width: 250px;
+            transition: transform 0.3s;
+        }
+        .card:hover, .card2:hover, .card3:hover {
+            transform: translateY(-10px);
+        }
+        .card-content, .card-content2, .card-content3 {
+            padding: 15px;
+            text-align: center;
+        }
+        .card-content h3, .card-content2 h3, .card-content3 h3{
+            margin: 10px 0;
+            color: orange;
+        }
+        .card-content p, .card-content2 p, .card-content3 p {
+            color: blue;
+            font-size: 14px;
+        }
+        .btn, .btn2, .btn3 {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: rgb(202, 199, 13);
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+       <div class="card">
+           <div class="card-content">
+               <h3>Plano Básico</h3>
+               <p>Ideal para lisos</p>
+               <a href="###" class="btn">Assinar</a>
+           </div>
+       </div>
+       <div class="container2">
+       <div class="card2">
+           <div class="card-content2">
+               <h3>Plano Premium</h3>
+               <p>Ideal para assalariados</p>
+               <a href="###" class="btn2">Assinar</a>
+           </div>
+       </div>
+       <div class="container3">
+               <div class="card3">
+                <div class="card-content3">
+                    <h3>Plano Premium</h3>
+                    <p>Ideal para assalariados</p>
+                    <a href="###" class="btn3">Assinar</a> 
+                </div>
+               </div>
+           </div>
+       </div>
+   </div> 
+</body>
+</html>
