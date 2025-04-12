@@ -80,7 +80,7 @@ header nav ul li a:hover{
 }
 
 
-/*aqui começa nossa sessão*/
+/*aqui começa nossa seção*/
 .sobre-section{
     background-color: rgb(134, 146, 25);
     padding: 50px 20px;
@@ -100,3 +100,103 @@ header nav ul li a:hover{
     line-height: 1.5;
 }
 
+/*seção de serviços*/
+#serviços{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    background-color: brown;
+    color: bisque;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 8px 20px black;
+    cursor: pointer;
+    transition: transform 0.05s;
+    margin-top: 20px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px black;
+    background-color: rgb(255, 0, 0);
+}
+
+.card h3{
+font-size: 23px;
+margin-bottom: 10px;
+
+}
+
+.card p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.preço{
+    font-weight: bold;
+    font-size: 18px;
+
+}
+#serviços h2{
+    font-size: 20px;
+
+
+}
+
+/*seção de contato*/
+#contato{
+    background-color: blueviolet;
+    color: yellowgreen;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+#contato h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contato-form{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contato-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contato-form input, .contato-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+} 
+
+.contato-form button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contato-form button:hover{
+    background-color: orangered;
+    
+}
