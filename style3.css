@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 180%;
+    font-weight: 200;
+    text-align: center;
+    color: rgb(233, 7, 7);
+    padding: 20px;
+    background-color: #fff;
+}
+
+.Bradesco {
+    text-align: center;
+    padding: 30px;
+}
+
+.Bradesco h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Bradesco p {
+    background-color: red;
+    color: black;
+    padding: 50px;
+    border-radius: 50px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.Bradesco img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
